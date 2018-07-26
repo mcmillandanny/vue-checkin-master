@@ -116,6 +116,7 @@ body {
 	-webkit-animation: ani-bg 1s ease infinite;
 	-moz-animation: ani-bg 1s ease infinite;
 	animation: ani-bg 1s ease infinite;
+	animation: swirlin 3s linear 1s 1 running;
 	font-family: Helvetica, Arial, sans-serif;
 	border: 3vw solid black;
 	padding: 3vw;
