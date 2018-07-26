@@ -1,0 +1,213 @@
+/* 
+==============================================
+CONTENT:	Project Name Here
+AUTHOR:		Your Name Here
+==============================================
+
+TABLE OF CONTENTS:
+
+1. Main Layout
+2. Content
+
+==============================================
+*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* 1. Main Layout ================================= */
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	min-height: 100vh;
+}
+
+@-webkit-keyframes ani-bg {
+	0% {
+		background-position: 0% 43%;
+	}
+	50% {
+		background-position: 100% 58%;
+	}
+	100% {
+		background-position: 0% 43%;
+	}
+}
+
+@-moz-keyframes ani-bg {
+	0% {
+		background-position: 0% 43%;
+	}
+	50% {
+		background-position: 100% 58%;
+	}
+	100% {
+		background-position: 0% 43%;
+	}
+}
+
+@keyframes ani-bg {
+	0% {
+		background-position: 0% 43%;
+	}
+	50% {
+		background-position: 100% 58%;
+	}
+	100% {
+		background-position: 0% 43%;
+	}
+}
+
+body {
+	background: linear-gradient(279deg, #ff0000, #ff8500);
+	background-size: 400% 400%;
+	-webkit-animation: ani-bg 1s ease infinite;
+	-moz-animation: ani-bg 1s ease infinite;
+	animation: ani-bg 1s ease infinite;
+	font-family: Helvetica, Arial, sans-serif;
+	border: 3vw solid black;
+	padding: 3vw;
+}
+
+@keyframes swirlin {
+	from {
+		transform: rotate(360deg) translateY(-200px) translateX(-200px) scale(0);
+	}
+	to {
+		transform: rotate(0deg) translateY(200px) translateX(200px) scale(1);
+	}
+}
+
+.Baycon {
+	font-family: 'Hanalei Fill', cursive;
+}
+
+img.bay {
+	float: right;
+}
+
+h1 {
+	font-size: 7vw;
+	font-weight: bold;
+	text-align: center;
+}
+
+.h2_title {
+	font-family: 'Do Hyeon', sans-serif;
+	font-size: 4vw;
+	color: black;
+	text-align: center;
+	margin-top: 20px;
+}
+
+ul {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-start;
+}
+
+ul li {
+	text-align: center;
+	width: 250px;
+	border: 1px solid #999;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 10px 0;
+}
+
+ul li h3 {
+	font-size: 18pt;
+	font-weight: bold;
+}
+
+ul li p {
+	font-weight: bold;
+	font-size: 12pt;
+	color: #999;
+}
+
+#explosion {
+	display: flex;
+	flex-direction: row;
+	height: 200px;
+	margin-left: -100px;
+	text-wrap: wrap;
+}
+
+button {
+	color: white;
+	background-color: black;
+	padding: 10px;
+	margin-left: 5px;
+	border-radius: 10px;
+	outline: none;
+	border: none;
+}
+
+h2 {
+	font-size: 4vw;
+	margin-top: 100px;
+}
+
+input {
+	font-size: 15pt;
+	padding: 5px 8px;
+}
+
+strong {
+	color: black;
+}
+
+/*# sourceMappingURL=app.css.map */
